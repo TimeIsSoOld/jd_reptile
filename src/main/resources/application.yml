@@ -1,9 +1,9 @@
 spring:
   datasource:
-    url: jdbc:mysql://192.168.1.52:3306/test_yjn?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
+    url: jdbc:mysql://43.154.195.135:3306/db?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
     driver-class-name: com.mysql.cj.jdbc.Driver
-    username: root
-    password: Ewit@123
+    username: yjn
+    password: 123456
     dbcp2:
       min-idle: 5
       initial-size: 5
